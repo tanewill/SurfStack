@@ -1,0 +1,21 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmssName": {
+      "value": "tnvmss3"
+    },
+    "vmSize": {
+      "value": "Standard_A4"
+    },
+    "instanceCount": {
+      "value": 15
+    },
+    "adminUsername": {
+      "value": "azureuser"
+    },
+    "adminPassword": {
+      "value": "Azure123Azure123"
+    }
+  }
+}
